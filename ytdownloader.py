@@ -67,7 +67,7 @@ choices = ["720p","144p","Only Audio"]
 ytdchoices = ttk.Combobox(root,values=choices).grid()
 
 
-downloadbtn = Button(root,text="Donwload",width=10,bg="red",fg="white",command=DownloadVideo).grid()
+downloadbtn = Button(root,text="Download",width=10,bg="red",fg="white",command=DownloadVideo).grid()
 
 developerlabel = Label(root,text="---AMBUSH---",font=("jost",15))
 developerlabel.grid()
